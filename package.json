@@ -1,0 +1,41 @@
+{
+  "name": "yarn_workspaces",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "react-sap-app": "yarn workspace react-spa-app start",
+    "nextjs-app": "yarn workspace nextjs-app dev",
+    "koa-service-app": "yarn workspace koa-service-app dev"
+  },
+  "keywords": ["yarn", "workspaces", "monorepo", "react", "koa"],
+  "author": "Shine Shao <xiaoshaoqq@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.1.2",
+    "@types/koa": "^2.13.3",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "koa": "^2.13.1",
+    "next": "^11.0.1",
+    "next-transpile-modules": "^8.0.0",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "react-scripts": "4.0.3"
+  }
+}

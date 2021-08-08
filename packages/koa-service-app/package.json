@@ -1,0 +1,14 @@
+{
+  "name": "koa-service-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch './**/*.ts' --watch '../common/**/*.ts' --exec 'ts-node' server.ts",
+    "build": "ts-node index.ts"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
