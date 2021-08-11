@@ -10,7 +10,8 @@
     "type-check": "tsc"
   },
   "devDependencies": {
-    "next-transpile-modules": "^8.0.0"
+    "next-transpile-modules": "^8.0.0",
+    "sass": "^1.37.5"
   },
   "license": "MIT"
 }
